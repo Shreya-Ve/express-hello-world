@@ -1,27 +1,23 @@
 {
-  "name": "express-hello-world",
+  "name": "simpletodoapp",
   "version": "1.0.0",
-  "description": "Expressjs Hello World example to provide faster start deploying on Cyclic platform",
-  "main": "server.js",
+  "description": "Simple Todo App",
+  "main": "app.js",
   "scripts": {
-    "serve": "nodemon --watch . server.js",
-    "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cyclic-software/express-hello-world.git"
-  },
-  "author": "Cyclic Software",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/cyclic-software/express-hello-world/issues"
-  },
-  "homepage": "https://github.com/cyclic-software/express-hello-world#readme",
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.12"
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "connect-flash": "^0.1.1",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.6",
+    "method-override": "^2.3.10",
+    "mongoose": "^5.0.14",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
   }
 }
